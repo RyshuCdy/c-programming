@@ -17,6 +17,6 @@ int main()
     scanf("%d",&r);
     p=fact(n)/(fact(n-r)*fact(r));
     printf("The combination is %d",p);
-    getch();
+  
     return 0;
 }
